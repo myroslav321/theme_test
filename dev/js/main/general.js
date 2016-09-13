@@ -15,6 +15,12 @@
             captionPosition: 'outside',
             heightRatio: 0.6
         });
+
+        $('.js__icon-text-color__dotdotdot').dotdotdot({
+            ellipsis:"...",
+            wrap:"word",
+            height: 120
+        });
     });
 
 })(jQuery);

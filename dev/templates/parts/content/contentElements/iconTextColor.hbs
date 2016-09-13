@@ -1,0 +1,11 @@
+<a class="icon-text-color__link"  href="{{#if this.blockAsLink}}{{blockAsLink}}{{else}}#{{/if}}">
+  <div class="icon-text-color background-color background-color-{{backgroundColor}} {{#if this.iconToTheLeft}}icon-text-color__iconToTheLeft{{/if}} ">
+    <div class="icon-text-color__iconblock {{#if this.iconToTheLeft}}icon-text-color__iconblock-iconToTheLeft{{/if}}">
+          <span class="icon-text-color__icon icons icon-{{bigIconName}} {{#if this.iconToTheLeft}}icon-text-color__icon-iconToTheLeft{{/if}}"></span>
+    </div>
+    <div class="js__icon-text-color__dotdotdot {{#if this.iconToTheLeft}}icon-text-color__textblock-iconToTheLeft{{/if}}">
+        <h4 class="icon-text-color__header">{{header}}</h4>
+        <p class="icon-text-color__p">{{text}}</p>
+    </div>
+  </div>
+</a>

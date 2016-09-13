@@ -43,6 +43,39 @@ externalLink: false #just add link (http://link.com) instead of "false" to use t
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            {{ renderContent 'iconTextColor'
+                bigIconName="pie-chart"
+                header="Content element 1"
+                iconToTheLeft=false
+                backgroundColor="red"
+                blockAsLink="https://github.com/t3kit/t3kit"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula, Lorem ipsum dolor sit amet, consectetur adipiscing"
+            }}
+        </div>
+        <div class="col-md-4">
+            {{ renderContent 'iconTextColor'
+                bigIconName="screen"
+                iconToTheLeft=false
+                header="Content element  2"
+                backgroundColor=""
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula Lorem ipsum dolor sit amet, consectetur adipiscing"
+            }}
+        </div>
+        <div class="col-md-4">
+            {{ renderContent 'iconTextColor'
+                bigIconName="rocket"
+                iconToTheLeft=true
+                header="Content element 3"
+                backgroundColor="orange"
+                blockAsLink=false
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula Lorem ipsum dolor sit amet, consectetur adipiscing"
+            }}
+        </div>
+    </div>
+</div>
 
 <div class="blue-mountain-wrp">
     <div class="container">
