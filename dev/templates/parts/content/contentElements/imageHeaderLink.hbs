@@ -1,0 +1,33 @@
+<div class="img-header-link">
+  <div class="img-header-link__imageblock">
+    <img class="img-header-link__img img-responsive" src="{{imgSrc}}" alt="foto">
+  </div>
+  <div class="img-header-link__contentblock">
+      {{#if this.headerAsLink}}
+          <a class="img-header-link__link" title="{{header}}" href="{{#if this.headerLink}}{{headerLink}}{{else}}#{{/if}}">
+              <h3 class="img-header-link__header {{#if this.headerAsLink}}img-header-link__header-link{{/if}}">{{header}}</h3>
+          </a>
+      {{else}}
+          <h3 class="img-header-link__header">{{header}}</h3>
+      {{/if}}
+      {{#if this.textFirst}}
+          <p class="img-header-link__p">{{textFirst}}</p>
+          <hr class="img-header-link__divider">
+      {{/if}}
+      {{#if this.textSecond}}
+          <p class="img-header-link__p">{{textSecond}}</p>
+          <hr class="img-header-link__divider">
+      {{/if}}
+      <div class="img-header-link__linksblock">
+        {{#if this.linkNameFirst}}
+            <a class="img-header-link__link" title="{{linkNameFirst}}" href="{{#if this.linkNameFirst}}{{linkNameFirst__link}}{{else}}#{{/if}}"><span class="img-header-link__link-icon icons icon-{{linkIconName}}"></span>{{linkNameFirst}}</a>
+        {{/if}}
+        {{#if this.linkNameSecond}}
+            <a class="img-header-link__link" title="{{linkNameSecond}}" href="{{#if this.linkNameSecond}}{{linkNameSecond__link}}{{else}}#{{/if}}"><span class="img-header-link__link-icon icons icon-{{linkIconName}}"></span>{{linkNameSecond}}</a>
+        {{/if}}
+        {{#if this.linkNameThird}}
+            <a class="img-header-link__link" title="{{linkNameThird}}" href="{{#if this.linkNameThird}}{{linkNameThird__link}}{{else}}#{{/if}}"><span class="img-header-link__link-icon icons icon-{{linkIconName}}"></span>{{linkNameThird}}</a>
+        {{/if}}
+      </div>
+  </div>
+</div>
