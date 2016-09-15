@@ -10,24 +10,24 @@
 
 TCEFORM.pages.tx_themes_icon.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_bluemountain/fonts/style.css
+        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
     }
 }
 
 TCEFORM.tt_content.pi_flexform.iconTextButton.sDEF.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_bluemountain/fonts/style.css
+        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
     }
 }
 
 TCEFORM.tt_content.pi_flexform.bigIconTextButton.sDEF.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_bluemountain/fonts/style.css
+        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
     }
 }
 
 TCEFORM.tt_content.pi_flexform.div.sDEF.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_bluemountain/fonts/style.css
+        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
     }
 }
