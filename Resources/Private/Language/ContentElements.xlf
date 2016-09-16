@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-09-19T09:11:39Z" product-name="theme_t3kit">
+        <header/>
+        <body>
+
+            <!--iconTextColor-->
+            <trans-unit id="iconTextColor.title">
+                <source>Icon, header, text</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.description">
+                <source>icon, header, text with changing color of block, all block can be a link</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.header_label">
+                <source>Header</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.linkText">
+                <source>Link title</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.bodytext">
+                <source>Text</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.flexform.sheetGeneral">
+                <source>Aditional settings</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.flexform.iconClass">
+                <source>Icon</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.backgroundColor">
+                <source>Background color of block</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.iconToTheLeft">
+                <source>Icon to the left</source>
+            </trans-unit>
+            <trans-unit id="iconTextColor.blockAsLink">
+                <source>Block as link</source>
+            </trans-unit>
+
+          <!--imageHeaderLink-->
+
+            <trans-unit id="imageHeaderLink.title">
+                <source>Image with Header Link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.description">
+                <source>Image, header link, texts, dividers, links</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.header_label">
+                <source>Header Link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkText">
+                <source>Header title</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.bodytext">
+                <source>Text</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.headerAsLink">
+                <source>Header as Link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.flexform.sheetGeneral">
+                <source>Aditional settings</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

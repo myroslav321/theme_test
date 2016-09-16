@@ -12,7 +12,7 @@ themes.configuration.header.headerTemplate = Header
 # Header: Header constants
 #############################################
 
-themes.configuration.header.logo.main.file = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/images/logo.png
+themes.configuration.header.logo.main.file = EXT:theme_test/Resources/Public/Images/Logo.png
 
 #Header Top
 #############################################

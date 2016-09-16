@@ -1,0 +1,14 @@
+mod.wizards.newContentElement.wizardItems.customContentElements {
+    elements {
+        iconTextColor {
+            title = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.title
+            description = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.description
+            iconIdentifier = custom-content-elements-imageHeaderLink
+            tt_content_defValues {
+                CType = imageHeaderLink
+            }
+        }
+    }
+    show := addToList(imageHeaderLink)
+
+}

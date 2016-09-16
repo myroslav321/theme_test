@@ -1,6 +1,9 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_t3kit/Configuration/TypoScript/setup.txt">
 
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_t3kit_bluemountain/Configuration/TypoScript/Library/" extensions="setupts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/TypoScript/Library/" extensions="setupts">
 
 # Add our Grid elements
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_t3kit_bluemountain/Configuration/GridElements/TypoScript" extensions="setupts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/GridElements/TypoScript" extensions="setupts">
+
+# Add our content elements
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/ContentElements/" extensions="setupts">

@@ -1,33 +1,41 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_t3kit/Configuration/PageTS/tsconfig.txt">
 
 # Overrides of fluid_styled_content
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_t3kit_bluemountain/Configuration/FluidStyledContent" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/FluidStyledContent" extensions="pagets">
 
 # Add our Grid elements
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_t3kit_bluemountain/Configuration/GridElements/PageTS" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/GridElements/PageTS" extensions="pagets">
 
+# Add our content elements
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/ContentElements" extensions="pagets">
 
 
 TCEFORM.pages.tx_themes_icon.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
     }
 }
 
 TCEFORM.tt_content.pi_flexform.iconTextButton.sDEF.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
     }
 }
 
 TCEFORM.tt_content.pi_flexform.bigIconTextButton.sDEF.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
     }
 }
 
 TCEFORM.tt_content.pi_flexform.div.sDEF.iconClass {
     config {
-        cssFile = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test/fonts/style.css
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
+    }
+}
+
+TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconClass {
+    config {
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
     }
 }

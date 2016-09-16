@@ -1,0 +1,37 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+  <f:comment></f:comment>
+  <f:layout name="ContentFooter" />
+
+  <f:section name="content">
+    <f:debug>{_all}</f:debug>
+    <f:if condition="{data.header_link}">
+      <f:then>
+        <f:link.typolink parameter="{data.header_link}" title="{data.subheader}" class="icon-text-color__link">
+          <f:render section="iconTextColor" arguments="{_all}"/>
+        </f:link.typolink>
+      </f:then>
+      <f:else>
+        <f:render section="iconTextColor"  arguments="{_all}"/>
+      </f:else>
+    </f:if>
+  </f:section>
+
+  <f:section name="iconTextColor">
+    <!-- theme_test: Templates/ContentElements/iconTextColor.html [begin] -->
+    <div class="icon-text-color background-color {f:if(condition:settings.backgroundColor,then:'background-color-{settings.backgroundColor}')} {f:if(condition: settings.iconToTheLeft,then:'icon-text-color__iconToTheLeft')}">
+      <div class="icon-text-color__iconblock {f:if(condition: settings.iconToTheLeft,then:'icon-text-color__iconblock-iconToTheLeft')}">
+          <span class="icon-text-color__icon icons icon-{settings.iconClass} {f:if(condition: settings.iconToTheLeft,then:'icon-text-color__icon-iconToTheLeft')}"></span>
+      </div>
+      <div class="js__icon-text-color__dotdotdot {f:if(condition: settings.iconToTheLeft,then:'icon-text-color__textblock-iconToTheLeft')}">
+        <f:if condition="{data.header}">
+          <h4 class="icon-text-color__header">{data.header}</h4>
+        </f:if>
+        <f:if condition="{data.bodytext}">
+              <p class="icon-text-color__p">{data.bodytext}</p>
+        </f:if>
+      </div>
+    </div>
+  </f:section>
+
+</div>

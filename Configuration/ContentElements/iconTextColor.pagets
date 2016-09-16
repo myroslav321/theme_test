@@ -1,0 +1,35 @@
+mod.wizards.newContentElement.wizardItems.contentElements {
+    elements {
+        iconTextColor {
+            title = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconTextColor.title
+            description = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconTextColor.description
+            iconIdentifier = content-elements-iconTextColor
+            tt_content_defValues {
+                CType = iconTextColor
+            }
+        }
+    }
+    show := addToList(iconTextColor)
+}
+TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconClass {
+    addItems {
+        0 = LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:icon.flexform.iconClass_none
+    }
+}
+TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconToTheLeft{
+             addItems {
+                 0 = Default layout for this element
+                 11 = Icon to the left
+             }
+         }
+     }
+}
+
+# Flexform selects
+TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.backgroundColor {
+    addItems {
+      0 = Default
+      11 = Orange
+      12 = Red
+    }
+}
