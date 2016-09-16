@@ -16,6 +16,7 @@ TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconClass {
         0 = LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:icon.flexform.iconClass_none
     }
 }
+
 TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconToTheLeft{
              addItems {
                  0 = Default layout for this element

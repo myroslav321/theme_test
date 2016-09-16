@@ -4,8 +4,8 @@ defined('TYPO3_MODE') or die();
 call_user_func(function() {
 
     // Shorter paths to localization files
-    $testElementFilePrefix = 'LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:';
-    $testElementLanguageFilePrefix = 'LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:';
+    $contentElementFilePrefix = 'LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:';
+    $contentElementLanguageFilePrefix = 'LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:';
     $t3kitElementLanguageFilePrefix = 'LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:';
     $frontendLanguageFilePrefix = 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:';
     $cmsLanguageFilePrefix = 'LLL:EXT:cms/locallang_ttc.xlf:';
@@ -19,7 +19,7 @@ call_user_func(function() {
        'tt_content',
        'CType',
        [
-           $testElementLanguageFilePrefix. 'iconTextColor.title',
+           $contentElementLanguageFilePrefix. 'iconTextColor.title',
            'iconTextColor',
            'content-elements-iconTextColor'
        ],
@@ -34,7 +34,7 @@ call_user_func(function() {
       'tt_content',
       'CType',
       [
-          $testElementLanguageFilePrefix . 'imageHeaderLink.title',
+          $contentElementLanguageFilePrefix . 'imageHeaderLink.title',
           'imageHeaderLink',
           'content-elements-imageHeaderLink'
       ],
