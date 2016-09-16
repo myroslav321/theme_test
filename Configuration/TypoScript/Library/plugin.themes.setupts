@@ -1,7 +1,1 @@
-# plugin.tx_themes {
-#     view {
-#         partialRootPaths {
-#             400 = EXT:theme_t3kit_bluemountain/Resources/Private/Partials/
-#         }
-#     }
-# }
+

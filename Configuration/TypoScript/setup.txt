@@ -7,3 +7,19 @@
 
 # Add our content elements
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_test/Configuration/ContentElements/" extensions="setupts">
+
+
+lib.fluidContent {
+    templateRootPaths {
+        1970 =  EXT:theme_test/Resources/Private/Templates/ContentElements
+        1980 =  EXT:theme_test/Resources/Private/Templates/FluidStyledContent
+    }
+    partialRootPaths {
+        1970 =  EXT:theme_test/Resources/Private/Partials/ContentElements
+        1980 =  EXT:theme_test/Resources/Private/Partials/FluidStyledContent
+    }
+    layoutRootPaths {
+        1970 =  EXT:theme_test/Resources/Private/Layouts/ContentElements
+        1980 =  EXT:theme_test/Resources/Private/Layouts/FluidStyledContent
+    }
+}
