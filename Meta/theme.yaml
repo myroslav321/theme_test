@@ -1,0 +1,35 @@
+# Name and description of the theme (required)
+title            : Theme Blue Mountain
+version          : 0.4.0
+description      : |
+  Theme Blue Mountain fot t3kit project -
+  This theme have two ways how to manipulate with settings. One standard for TYPO3 themes and second real time intuitive interface to change settings. https://t3kit.github.io/theme_bluemountain_customizer
+
+parentTheme:
+  name: theme_t3kit
+
+# Keywords (optional)
+keywords:
+  - t3kit
+  - theme
+  - responsive design
+
+
+# Screenshots for the preview gallery (optional, multiple possible)
+screenshots:
+  -
+    file           : EXT:theme_t3kit_bluemountain/Meta/Screenshots/screenshot.png
+    caption        : Theme-t3kit-Bluemountain
+
+
+# Whether a documentation page is available (optional)
+documentation:
+  -
+    uri            : http://t3kit.com
+    title          : t3kit.com
+
+# Whether a live demo is available (optional)
+demoLocation:
+  -
+    uri            : http://demo.t3kit.com
+    title          : demo.t3kit.com

@@ -1,3 +1,4 @@
+
 ## Y
 
 #### Based on `felayout_bluemountain 0.5.0`
@@ -33,3 +34,14 @@ bower install
 - Run `grunt pushSite` to build your static site and push it to separate branch `site`
 - Run `grunt pushCss` to compile all Front-End service files plus **CSS** styling for CMS needs, copy it to separate branch `css` and push to remote git server.
 - Run `grunt pushLess` to compile all Front-End service files plus **LESS** styling for CMS needs, copy it to separate branch `less` and push to remote git server.
+
+# Theme Blue Mountain
+
+### Theme extension, which allows you to style the t3kit theme in backend without coding
+
+[![Release](https://img.shields.io/github/release/t3kit/theme_t3kit_bluemountain.svg?style=flat-square)](https://github.com/t3kit/theme_t3kit_bluemountain/releases)
+
+![Screenshot](Meta/Screenshots/screenshot.png)
+
+### [CHANGELOG](https://github.com/t3kit/theme_t3kit_bluemountain/blob/master/CHANGELOG.md)
+### [Contributing to t3kit](https://github.com/t3kit/t3kit/blob/master/CONTRIBUTING.md)

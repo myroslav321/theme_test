@@ -1,0 +1,70 @@
+lib.bluemountainGrigClassMappings.365 < lib.fluidContent.dataProcessing.365
+lib.bluemountainGrigClassMappings.365 {
+    classMappings {
+        # mew classMappings only for gridelements
+        13 = footer__bottom
+    }
+}
+
+lib.bluemountainGrigClassMappings.1910  < lib.fluidContent.dataProcessing.1910
+lib.bluemountainGrigClassMappings.1910 {
+    classMappings {
+        11 = mosaic-blue-mountain-odd
+        12 = mosaic-blue-mountain-even
+        13 = mosaic-gray-odd
+        14 = mosaic-gray-even
+    }
+}
+
+
+
+lib.gridelements.2ColumnGrid.cObject.dataProcessing.365 >
+lib.gridelements.2ColumnGrid.cObject.dataProcessing.365 < lib.bluemountainGrigClassMappings.365
+lib.gridelements.3ColumnGrid.cObject.dataProcessing.365 >
+lib.gridelements.3ColumnGrid.cObject.dataProcessing.365 < lib.bluemountainGrigClassMappings.365
+lib.gridelements.4ColumnGrid.cObject.dataProcessing.365 >
+lib.gridelements.4ColumnGrid.cObject.dataProcessing.365 < lib.bluemountainGrigClassMappings.365
+lib.gridelements.2ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.2ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+lib.gridelements.3ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.3ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+lib.gridelements.4ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.4ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+
+tt_content.gridelements_pi1.20.10.setup.2ColumnGrid < lib.gridelements.2ColumnGrid
+tt_content.gridelements_pi1.20.10.setup.3ColumnGrid < lib.gridelements.3ColumnGrid
+tt_content.gridelements_pi1.20.10.setup.4ColumnGrid < lib.gridelements.4ColumnGrid
+
+
+lib.gridelements.Adv1ColumnGrid.cObject.dataProcessing {
+    365 >
+    365 < lib.bluemountainGrigClassMappings.365
+}
+lib.gridelements.Adv2ColumnGrid.cObject.dataProcessing {
+    365 >
+    365 < lib.bluemountainGrigClassMappings.365
+}
+lib.gridelements.Adv3ColumnGrid.cObject.dataProcessing {
+    365 >
+    365 < lib.bluemountainGrigClassMappings.365
+}
+
+lib.gridelements.Adv4ColumnGrid.cObject.dataProcessing {
+    365 >
+    365 < lib.bluemountainGrigClassMappings.365
+}
+
+lib.gridelements.Adv1ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.Adv1ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+lib.gridelements.Adv2ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.Adv2ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+lib.gridelements.Adv3ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.Adv3ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+lib.gridelements.Adv4ColumnGrid.cObject.dataProcessing.1910 >
+lib.gridelements.Adv4ColumnGrid.cObject.dataProcessing.1910 < lib.bluemountainGrigClassMappings.1910
+
+
+tt_content.gridelements_pi1.20.10.setup.Adv1ColumnGrid < lib.gridelements.Adv1ColumnGrid
+tt_content.gridelements_pi1.20.10.setup.Adv2ColumnGrid < lib.gridelements.Adv2ColumnGrid
+tt_content.gridelements_pi1.20.10.setup.Adv3ColumnGrid < lib.gridelements.Adv3ColumnGrid
+tt_content.gridelements_pi1.20.10.setup.Adv4ColumnGrid < lib.gridelements.Adv4ColumnGrid

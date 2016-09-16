@@ -1,0 +1,3 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_t3kit/Configuration/TypoScript/constants.txt">
+
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_t3kit_bluemountain/Configuration/TypoScript/Library" extensions="constantsts">

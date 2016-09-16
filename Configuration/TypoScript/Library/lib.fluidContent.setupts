@@ -1,0 +1,18 @@
+lib.fluidContent.dataProcessing.365 >
+lib.fluidContent {
+    dataProcessing {
+        365 = T3kit\T3kitExtensionTools\DataProcessing\LayoutClassProcessor
+        365 {
+            fieldName = wrapper
+            as = wrapperClass
+            classMappings {
+                # 0 =
+                100 = gray-background
+                101 = blue-mountain-wrp
+                102 = blue-mountain-header
+                105 = inverse
+                106 = saturated-inverse
+            }
+        }
+    }
+}

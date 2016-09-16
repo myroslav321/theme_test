@@ -1,0 +1,13 @@
+TCEFORM.tt_content.wrapper >
+TCEFORM.tt_content.wrapper {
+   # Based on that the default items still exists.
+   addItems {
+       # add more wrappers. Interval from 100 to 999
+       100 = Gray Background
+       101 = Blue Mountain Wrapper
+       102 = Blue Mountain Header Text
+       105 = Inverse color of text, links, buttons
+       106 = Inverse and saturate color of text, links, buttons
+
+   }
+}

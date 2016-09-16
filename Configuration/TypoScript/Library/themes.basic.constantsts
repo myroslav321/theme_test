@@ -1,0 +1,7 @@
+themes.configuration.siteDomain = t3kit-bluemountain.testserver.pixelant.nu
+
+themes.configuration.feLayoutPath = EXT:theme_t3kit_bluemountain/Resources/Public/felayout_test
+
+# themes.configuration.features.searchTargetPage = 71
+
+# themes.configuration.features.newsDefaultDetailPid = 42
