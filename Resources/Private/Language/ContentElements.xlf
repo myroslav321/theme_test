@@ -15,7 +15,7 @@
                 <source>Header</source>
             </trans-unit>
             <trans-unit id="iconTextColor.linkText">
-                <source>Link title</source>
+                <source>Block link title</source>
             </trans-unit>
             <trans-unit id="iconTextColor.bodytext">
                 <source>Text</source>
@@ -58,6 +58,9 @@
             </trans-unit>
             <trans-unit id="imageHeaderLink.flexform.sheetGeneral">
                 <source>Aditional settings</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.flexform.iconClass">
+                <source>Icon before link</source>
             </trans-unit>
 
 

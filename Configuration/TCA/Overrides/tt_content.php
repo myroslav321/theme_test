@@ -87,6 +87,7 @@ call_user_func(function() {
             --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
             header;' . $contentElementFilePrefix . 'imageHeaderLink.header_label,
             --linebreak--,bodytext;' . $contentElementFilePrefix . 'imageHeaderLink.bodytext,
+            --linebreak--,textFirst;' . $contentElementFilePrefix . 'imageHeaderLink.textFirst,
             --linebreak--,subheader;' . $contentElementFilePrefix . 'imageHeaderLink.linkText,
             --linebreak--,header_link;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel,
             --linebreak--,pi_flexform;' . $contentElementFilePrefix . 'imageHeaderLink.flexform.sheetGeneral,
