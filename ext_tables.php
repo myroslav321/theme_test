@@ -29,4 +29,13 @@ if (TYPO3_MODE === 'BE') {
             'source' => $t3kitElementIconFilePrefix  . 'element.svg'
         ]
     );
+
+    // iconHeader
+    $iconRegistry->registerIcon(
+        'content-elements-iconHeader',
+        \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+        [
+            'source' => $t3kitElementIconFilePrefix  . 'element.svg'
+        ]
+    );
 }

@@ -60,6 +60,30 @@
                 <source>Aditional settings</source>
             </trans-unit>
 
+
+            <!--iconHeader-->
+
+
+            <trans-unit id="iconHeader.icons.settings">
+                <source>Icon</source>
+            </trans-unit>
+
+            <trans-unit id="iconHeader.title">
+                <source>Icon Header</source>
+            </trans-unit>
+
+            <trans-unit id="iconHeader.description">
+                <source>Icon Header element</source>
+            </trans-unit>
+
+            <trans-unit id="iconHeader.flexform.iconClass">
+                <source>Icon Header element</source>
+            </trans-unit>
+
+            <trans-unit id="iconHeader.flexform.sheetGeneral">
+                <source>Icon Header element</source>
+            </trans-unit>
+
         </body>
     </file>
 </xliff>

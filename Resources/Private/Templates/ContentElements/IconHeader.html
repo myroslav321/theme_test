@@ -1,0 +1,15 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:layout name="ContentFooter" />
+
+	<f:section name="content">
+        <div class="icon-header_wrap">
+			<f:if condition="{settings.iconClass}">
+				<span class="icon-header_icon icons icon-{settings.iconClass}"></span>
+			</f:if>
+			<f:if condition="{data.header}">
+				<h3 class="icon-header_header">{data.header}</h3>
+			</f:if>
+        </div>
+	</f:section>
+</div>

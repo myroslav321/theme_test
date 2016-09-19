@@ -44,6 +44,21 @@ call_user_func(function() {
 
   $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['imageHeaderLink'] = 'content-elements-imageHeaderLink';
 
+  // "iconIHeader"
+  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
+      'tt_content',
+      'CType',
+      [
+          $contentElementLanguageFilePrefix . 'iconHeader.title',
+          'iconHeader',
+          'content-elements-iconHeader'
+      ],
+      'imageHeaderLink',
+      'after'
+  );
+
+  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['iconHeader'] = 'content-elements-iconHeader';
+
     //
     // Types
     // "iconTextColor"
@@ -84,6 +99,25 @@ call_user_func(function() {
         --div--;' . $frontendLanguageFilePrefix . 'tabs.extended
         '
       ];
+
+
+      // "iconHeader"
+      $GLOBALS['TCA']['tt_content']['types']['iconHeader'] = [
+          'showitem' => '
+              --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
+              header;' . $cmsLanguageFilePrefix . 'header_formlabel,
+                  --linebreak--,pi_flexform;' . $contentElementFilePrefix . 'iconHeader.icons.settings,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.appearance,
+                  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
+                  --palette--;' . $frontendLanguageFilePrefix . 'palette.appearanceLinks;appearanceLinks,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.access,
+                  hidden;' . $frontendLanguageFilePrefix . 'field.default.hidden,
+                  --palette--;' . $frontendLanguageFilePrefix . 'palette.access;access,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.extended
+          '
+      ];
+
+
     //
     // Flexforms
     //
@@ -93,6 +127,9 @@ call_user_func(function() {
 
     // "imageHeaderLink"
     $GLOBALS['TCA']['tt_content']['columns']['pi_flexform']['config']['ds']['*,imageHeaderLink'] = 'FILE:EXT:theme_test/Configuration/FlexForms/flexform_imageHeaderLink.xml';
+
+    // iconHeader
+    $GLOBALS['TCA']['tt_content']['columns']['pi_flexform']['config']['ds']['*,iconHeader'] = 'FILE:EXT:theme_test/Configuration/FlexForms/flexform_iconHeader.xml';
 
 
 });

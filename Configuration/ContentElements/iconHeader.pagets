@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.contentElements {
+    elements {
+        iconHeader {
+            title = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconHeader.title
+            description = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconHeader.description
+            iconIdentifier = content-elements-iconHeader
+            tt_content_defValues {
+                CType = iconHeader
+            }
+        }
+    }
+    show := addToList(iconHeader)
+}
