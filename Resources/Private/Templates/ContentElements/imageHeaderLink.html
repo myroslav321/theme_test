@@ -1,0 +1,67 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:layout name="ContentFooter" />
+
+
+	<f:section name="content">
+	<f:debug>{_all}</f:debug>
+	<!-- theme_t3kit: Templates/ContentElements/ImageHeaderLink.html [begin] -->
+	<div class="img-header-link">
+		<div class="img-header-link__imageblock">
+      <f:if condition="{image}">
+          <f:for each="{image}" as="mediaItem" iteration="imageIteration">
+            <f:if condition="{imageIteration.isFirst}">
+            <f:media
+              file="{mediaItem}"
+              width="{data.imagewidth}"
+              height="{data.imageheight}"
+              alt="{mediaItem.media.alternative}"
+              title="{mediaItem.media.title}"
+              class="text-icon_image"
+            />
+            </f:if>
+          </f:for>
+      </f:if>
+		</div>
+		<div class="img-header-link__contentblock">
+	    <f:if condition="{settings.headerAsLink}">
+	      <f:then>
+	        <f:link.typolink parameter='data.header_link' title="{data.header}" class="img-header-link__link">
+	          <f:render section="header" arguments="{_all}"/>
+	        </f:link.typolink>
+	      </f:then>
+	      <f:else>
+	          <f:render section="header" arguments="{_all}"/>
+	      </f:else>
+	    </f:if>
+			<f:if condition="{data.textFirst}">
+				<p class="img-header-link__p">{data.textFirst}</p>
+				<hr class="img-header-link__divider">
+			</f:if>
+			<hr>
+			<f:if condition="{data.textSecond}">
+				<p class="img-header-link__p">{data.textSecond}</p>
+				<hr class="img-header-link__divider">
+			</f:if>
+			<hr>
+			<div class="img-header-link__linksblock">
+				<f:if condition="{data.linkNameFirst_link}">
+					<f:link.typolink parameter="{data.linkNameFirst_link}" title="{data.linkNameFirst}"><span class="img-header-link__link-icon icons icon-{settings.iconClass}"></span>{data.linkNameFirst}</f:link.typolink>
+				</f:if>
+				<f:if condition="{data.linkNameSecond_link}">
+					<f:link.typolink parameter="{data.linkNameSecond_link}" title="{data.linkNameSecond}">{data.linkNameSecond}</f:link.typolink>
+				</f:if>
+				<f:if condition="{data.linkNameThird_link}">
+					<f:link.typolink parameter="{data.linkNameThird_link}" title="{data.linkNameThird}">{data.linkNameThird}</f:link.typolink>
+				</f:if>
+			</div>
+		</div>
+	</div>
+	<!-- theme_t3kit: Templates/ContentElements/ImageHeaderLink.html [end] -->
+	</f:section>
+
+  <f:section name="header">
+    <h3 class="img-text-link__header {f:if(condition:this.headerAsLink, then:'img-header-link__header-link')}">{data.header}</h3>
+	</f:section>
+
+</div>

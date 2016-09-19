@@ -33,3 +33,15 @@ TCEFORM.tt_content.pi_flexform.div.sDEF.iconClass {
         cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
     }
 }
+
+TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconClass {
+    config {
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
+    }
+}
+
+TCEFORM.tt_content.pi_flexform.imageHeaderLink.sDEF.iconClass {
+    config {
+        cssFile = EXT:theme_test/Resources/Public/felayout_test/fonts/style.css
+    }
+}
