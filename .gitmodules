@@ -1,3 +1,6 @@
 [submodule "Resources/Public/felayout_bluemountain"]
 	path = Resources/Public/felayout_bluemountain
 	url = git@github.com:t3kit/felayout_bluemountain.git
+[submodule "Resources/Public/felayout_test"]
+	path = Resources/Public/felayout_test
+	url = git@github.com:myroslav321/felayout_test.git
