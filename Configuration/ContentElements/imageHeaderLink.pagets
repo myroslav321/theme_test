@@ -1,6 +1,6 @@
-mod.wizards.newContentElement.wizardItems.customContentElements {
+mod.wizards.newContentElement.wizardItems.contentElements {
     elements {
-        iconTextColor {
+        imageHeaderLink {
             title = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.title
             description = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.description
             iconIdentifier = content-elements-imageHeaderLink
@@ -11,4 +11,10 @@ mod.wizards.newContentElement.wizardItems.customContentElements {
     }
     show := addToList(imageHeaderLink)
 
+}
+
+TCEFORM.tt_content.pi_flexform.iconTextColor.sDEF.iconClass {
+    addItems {
+        0 = LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:icon.flexform.iconClass_none
+    }
 }

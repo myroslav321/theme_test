@@ -13,11 +13,11 @@
             <f:if condition="{imageIteration.isFirst}">
             <f:media
               file="{mediaItem}"
-              width="{data.imagewidth}"
+              width="{f:if(condition: data.imagewidth, then: data.imagewidth, else: settings.defaultWidth)}"
               height="{data.imageheight}"
               alt="{mediaItem.media.alternative}"
               title="{mediaItem.media.title}"
-              class="text-icon_image"
+              class="img-responsive"
             />
             </f:if>
           </f:for>
@@ -26,7 +26,7 @@
 		<div class="img-header-link__contentblock">
 	    <f:if condition="{settings.headerAsLink}">
 	      <f:then>
-	        <f:link.typolink parameter='data.header_link' title="{data.header}" class="img-header-link__link">
+	        <f:link.typolink parameter='data.header_link' title="{data.subheader}" class="img-header-link__link">
 	          <f:render section="header" arguments="{_all}"/>
 	        </f:link.typolink>
 	      </f:then>
@@ -34,25 +34,23 @@
 	          <f:render section="header" arguments="{_all}"/>
 	      </f:else>
 	    </f:if>
-			<f:if condition="{data.textFirst}">
-				<p class="img-header-link__p">{data.textFirst}</p>
+			<f:if condition="{data.bodytext}">
+				<p class="img-header-link__p">{data.bodytext}</p>
 				<hr class="img-header-link__divider">
 			</f:if>
-			<hr>
-			<f:if condition="{data.textSecond}">
-				<p class="img-header-link__p">{data.textSecond}</p>
+			<f:if condition="{settings.textSecond}">
+				<p class="img-header-link__p">{settings.textSecond}</p>
 				<hr class="img-header-link__divider">
 			</f:if>
-			<hr>
 			<div class="img-header-link__linksblock">
-				<f:if condition="{data.linkNameFirst_link}">
-					<f:link.typolink parameter="{data.linkNameFirst_link}" title="{data.linkNameFirst}"><span class="img-header-link__link-icon icons icon-{settings.iconClass}"></span>{data.linkNameFirst}</f:link.typolink>
+				<f:if condition="{settings.linkFirst_link}">
+					<f:link.typolink parameter="{settings.linkFirst_link}" title="{settings.linkFirst}" class="img-header-link__link"><span class="img-header-link__link-icon icons icon-{settings.iconClass}"></span>{settings.linkFirst}</f:link.typolink>
 				</f:if>
-				<f:if condition="{data.linkNameSecond_link}">
-					<f:link.typolink parameter="{data.linkNameSecond_link}" title="{data.linkNameSecond}">{data.linkNameSecond}</f:link.typolink>
+				<f:if condition="{settings.linkSecond_link}">
+					<f:link.typolink parameter="{settings.linkSecond_link}" title="{settings.linkSecond}" class="img-header-link__link"><span class="img-header-link__link-icon icons icon-{settings.iconClass}"></span>{settings.linkSecond}</f:link.typolink>
 				</f:if>
-				<f:if condition="{data.linkNameThird_link}">
-					<f:link.typolink parameter="{data.linkNameThird_link}" title="{data.linkNameThird}">{data.linkNameThird}</f:link.typolink>
+				<f:if condition="{settings.linkThird_link}">
+					<f:link.typolink parameter="{settings.linkThird_link}" title="{settings.linkThird}" class="img-header-link__link"><span class="img-header-link__link-icon icons icon-{settings.iconClass}"></span>{settings.linkThird}</f:link.typolink>
 				</f:if>
 			</div>
 		</div>
@@ -61,7 +59,7 @@
 	</f:section>
 
   <f:section name="header">
-    <h3 class="img-text-link__header {f:if(condition:this.headerAsLink, then:'img-header-link__header-link')}">{data.header}</h3>
+    <h3 class="img-text-link__header {f:if(condition:settings.headerAsLink, then:'img-header-link__header-link')}">{data.header}</h3>
 	</f:section>
 
 </div>

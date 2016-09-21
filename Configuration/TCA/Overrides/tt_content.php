@@ -81,7 +81,7 @@ call_user_func(function() {
       ];
 
 
-// "imageHeaderLink"
+    // "imageHeaderLink"
     $GLOBALS['TCA']['tt_content']['types']['imageHeaderLink'] = [
       'showitem' => '
             --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
@@ -91,8 +91,10 @@ call_user_func(function() {
             --linebreak--,subheader;' . $contentElementFilePrefix . 'imageHeaderLink.linkText,
             --linebreak--,header_link;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel,
             --linebreak--,pi_flexform;' . $contentElementFilePrefix . 'imageHeaderLink.flexform.sheetGeneral,
+        --div--;' . $frontendLanguageFilePrefix . 'tabs.images,image,
         --div--;' . $frontendLanguageFilePrefix . 'tabs.appearance,
             --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
+            --palette--;' . $t3kitElementLanguageFilePrefix . 'tt_content.palette.imageSize;imageSize,
             --palette--;' . $frontendLanguageFilePrefix . 'palette.appearanceLinks;appearanceLinks,
         --div--;' . $frontendLanguageFilePrefix . 'tabs.access,
             hidden;' . $frontendLanguageFilePrefix . 'field.default.hidden,

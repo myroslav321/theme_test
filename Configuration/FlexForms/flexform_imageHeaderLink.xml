@@ -18,6 +18,62 @@
                       </config>
                     </TCEforms>
                   </headerAsLink>
+                  <textSecond>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.textSecond</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </textSecond>
+                  <linkFirst>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.linkFirst</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </linkFirst>
+                  <linkFirst_link>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.linkFirst_link</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </linkFirst_link>
+                  <linkSecond>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.linkSecond</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </linkSecond>
+                  <linkSecond_link>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.linkSecond_link</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </linkSecond_link>
+                  <linkThird>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.linkThird</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </linkThird>
+                  <linkThird_link>
+                    <TCEforms>
+                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.linkThird_link</label>
+                        <config>
+                          <type>input</type>
+                        </config>
+                    </TCEforms>
+                  </linkThird_link>
                   <iconClass>
                       <TCEforms>
                           <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageHeaderLink.flexform.iconClass</label>

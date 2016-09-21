@@ -6,7 +6,7 @@
 
             <!--iconTextColor-->
             <trans-unit id="iconTextColor.title">
-                <source>Icon, header, text</source>
+                <source>Icon header text link</source>
             </trans-unit>
             <trans-unit id="iconTextColor.description">
                 <source>icon, header, text with changing color of block, all block can be a link</source>
@@ -51,17 +51,39 @@
                 <source>Header title</source>
             </trans-unit>
             <trans-unit id="imageHeaderLink.bodytext">
-                <source>Text</source>
-            </trans-unit>
-            <trans-unit id="imageHeaderLink.headerAsLink">
-                <source>Header as Link</source>
+                <source>Text 1</source>
             </trans-unit>
             <trans-unit id="imageHeaderLink.flexform.sheetGeneral">
                 <source>Aditional settings</source>
             </trans-unit>
+            <trans-unit id="imageHeaderLink.textSecond">
+                <source>Text 2</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.headerAsLink">
+                <source>Header as Link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkFirst">
+                <source>First link / text and title of link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkFirst_link">
+                <source>First link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkSecond">
+                <source>Second link / text and title of link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkSecond_link">
+                <source>Second link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkThird">
+                <source>Third link / text and title of link</source>
+            </trans-unit>
+            <trans-unit id="imageHeaderLink.linkThird_link">
+                <source>Third link</source>
+            </trans-unit>
             <trans-unit id="imageHeaderLink.flexform.iconClass">
                 <source>Icon before link</source>
             </trans-unit>
+
 
 
             <!--iconHeader-->
