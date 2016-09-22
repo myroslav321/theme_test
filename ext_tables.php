@@ -36,4 +36,22 @@ if (TYPO3_MODE === 'BE') {
             'source' => $t3kitElementIconFilePrefix  . 'element.svg'
         ]
     );
+
+    // imageTextSections
+    $iconRegistry->registerIcon(
+        'content-elements-imagetextSection',
+        \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+        [
+            'source' => $t3kitElementIconFilePrefix  . 'element.svg'
+        ]
+    );
+
+    // contentCarousel
+    $iconRegistry->registerIcon(
+        'content-elements-contentCarousel',
+        \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+        [
+            'source' => $t3kitElementIconFilePrefix  . 'element.svg'
+        ]
+    );
 }

@@ -59,6 +59,24 @@ call_user_func(function() {
 
   $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['iconHeader'] = 'content-elements-iconHeader';
 
+  // "imageTextSection"
+  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
+      'tt_content',
+      'CType',
+      [
+          $contentElementLanguageFilePrefix . 'imageTextSection.title',
+          'imageTextSection',
+          'content-elements-imageTextSection'
+      ],
+      'iconHeader',
+      'after'
+  );
+  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['imageTextSection'] = 'content-elements-imageTextSection';
+
+
+
+
+
     //
     // Types
     // "iconTextColor"
@@ -120,6 +138,28 @@ call_user_func(function() {
           '
       ];
 
+      // "imageTextSection"
+      $GLOBALS['TCA']['tt_content']['types']['imageTextSection'] = [
+          'showitem' => '
+              --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
+              header;' . $cmsLanguageFilePrefix . 'header_formlabel,
+              --linebreak--,subheader;' . $contentElementLanguageFilePrefix . 'imageTextSection.subheader,
+              --linebreak--,bodytext;' . $contentElementLanguageFilePrefix . 'imageTextSection.bodytext,
+              --linebreak--,header_link;' . $cmsLanguageFilePrefix . 'header_link_formlabel,
+              --linebreak--,pi_flexform;' . $t3kitElementLanguageFilePrefix . 'tt_content.tabs.settings,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.images,image,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.appearance,
+              --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
+              --palette--;' . $t3kitElementLanguageFilePrefix . 'tt_content.palette.imageSize;imageSize,
+              --palette--;' . $frontendLanguageFilePrefix . 'palette.appearanceLinks;appearanceLinks,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.access,
+              hidden;' . $frontendLanguageFilePrefix . 'field.default.hidden,
+              --palette--;' . $frontendLanguageFilePrefix . 'palette.access;access,
+              --div--;' . $frontendLanguageFilePrefix . 'tabs.extended
+          '
+      ];
+
+     
 
     //
     // Flexforms
@@ -133,6 +173,9 @@ call_user_func(function() {
 
     // iconHeader
     $GLOBALS['TCA']['tt_content']['columns']['pi_flexform']['config']['ds']['*,iconHeader'] = 'FILE:EXT:theme_test/Configuration/FlexForms/flexform_iconHeader.xml';
+
+    // "imageTextSection"
+    $GLOBALS['TCA']['tt_content']['columns']['pi_flexform']['config']['ds']['*,imageTextSection'] = 'FILE:EXT:theme_test/Configuration/FlexForms/flexform_imageTextSection.xml';
 
 
 

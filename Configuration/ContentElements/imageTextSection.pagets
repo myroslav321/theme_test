@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.contentElements {
+    elements {
+        imageTextSection {
+            title = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageTextSection.title
+            description = LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageTextSection.description
+            iconIdentifier = content-elements-imageTextSection
+            tt_content_defValues {
+                CType = imageTextSection
+            }
+        }
+    }
+    show := addToList(imageTextSection)
+}
