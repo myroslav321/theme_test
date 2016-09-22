@@ -4,7 +4,6 @@
 
 
 	<f:section name="content">
-	<f:debug>{_all}</f:debug>
 	<!-- theme_t3kit: Templates/ContentElements/ImageHeaderLink.html [begin] -->
 	<div class="img-header-link">
 		<div class="img-header-link__imageblock">
@@ -59,7 +58,7 @@
 	</f:section>
 
   <f:section name="header">
-    <h3 class="img-text-link__header {f:if(condition:settings.headerAsLink, then:'img-header-link__header-link')}">{data.header}</h3>
+    <h3 class="img-header-link__header {f:if(condition:settings.headerAsLink, then:'img-header-link__header-link')}">{data.header}</h3>
 	</f:section>
 
 </div>
