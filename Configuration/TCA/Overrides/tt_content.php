@@ -135,4 +135,63 @@ call_user_func(function() {
     $GLOBALS['TCA']['tt_content']['columns']['pi_flexform']['config']['ds']['*,iconHeader'] = 'FILE:EXT:theme_test/Configuration/FlexForms/flexform_iconHeader.xml';
 
 
+
+// Add additional fields for tt_content
+$additionalColumns = [
+'wrapper' => [
+    'exclude' => true,
+    'label' => $t3kitElementLanguageFilePrefix . 'tt_content.wrapper',
+    'config' => [
+        'type' => 'select',
+        'renderType' => 'selectSingle',
+        'items' => [
+            [$t3kitElementLanguageFilePrefix . 'label.default', 0]
+        ],
+        'default' => 0
+    ]
+],
+'aligning' => [
+    'exclude' => true,
+    'label' => $t3kitElementLanguageFilePrefix . 'tt_content.aligning',
+    'config' => [
+        'type' => 'select',
+        'renderType' => 'selectSingle',
+        'items' => [
+            [$t3kitElementLanguageFilePrefix . 'label.default', 0]
+        ],
+        'default' => 0
+    ]
+],
+'wrapper_margin_top' => [
+    'exclude' => true,
+    'label' => $t3kitElementLanguageFilePrefix . 'tt_content.wrapper_margin_top',
+    'config' => [
+        'type' => 'select',
+        'renderType' => 'selectSingle',
+        'items' => [
+            [$t3kitElementLanguageFilePrefix . 'label.default', 0]
+        ],
+        'default' => 0
+    ]
+],
+'wrapper_margin_bottom' => [
+    'exclude' => true,
+    'label' => $t3kitElementLanguageFilePrefix . 'tt_content.wrapper_margin_bottom',
+    'config' => [
+        'type' => 'select',
+        'renderType' => 'selectSingle',
+        'items' => [
+            [$t3kitElementLanguageFilePrefix . 'label.default', 0]
+        ],
+        'default' => 0
+    ]
+],
+];
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $additionalColumns);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tt_content', 'wrapper, aligning, wrapper_margin_top, wrapper_margin_bottom', '', 'after:layout');
+
 });
+
+// gridelements TCA overrides
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tt_content', '--div--;LLL:EXT:gridelements/Resources/Private/Language/locallang_db.xlf:gridElements, tx_gridelements_container, tx_gridelements_columns');
