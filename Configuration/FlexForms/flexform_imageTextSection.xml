@@ -20,33 +20,36 @@
                       </config>
                     </TCEforms>
                   </backgroundColor>
-                  <iconToTheLeft>
-                    <TCEforms>
-                      <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconTextColor.iconToTheLeft</label>
-                      <config>
-                        <type>check</type>
-                      </config>
-                    </TCEforms>
-                  </iconToTheLeft>
-                    <blockAsLink>
-                      <TCEforms>
-                        <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconTextColor.blockAsLink</label>
-                        <config>
-                          <type>check</type>
-                        </config>
-                      </TCEforms>
-                    </blockAsLink>
-                    <iconClass>
+                    <btnTitle>
                         <TCEforms>
-                            <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:iconTextColor.flexform.iconClass</label>
+                            <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageTextSection.btnTitle</label>
                             <config>
-                                <type>user</type>
-                                <userFunc>T3kit\T3kitExtensionTools\UserFunction\IconFontSelector->renderField</userFunc>
-                                <cssFile>EXT:theme_t3kit/Resources/Public/felayout_t3kit/fonts/style.css</cssFile>
-                                <isIcoMoon>1</isIcoMoon>
+                                <type>input</type>
+                                <rows>1s</rows>
+                                <default></default>
                             </config>
                         </TCEforms>
-                    </iconClass>
+                    </btnTitle>
+                    <modalHeading>
+                        <TCEforms>
+                            <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageTextSection.modalHeading</label>
+                            <config>
+                                <type>input</type>
+                                <rows>1s</rows>
+                                <default></default>
+                            </config>
+                        </TCEforms>
+                    </modalHeading>
+                    <modalText>
+                        <TCEforms>
+                            <label>LLL:EXT:theme_test/Resources/Private/Language/ContentElements.xlf:imageTextSection.modalText</label>
+                            <config>
+                                <type>text</type>
+                                <rows>10s</rows>
+                                <default></default>
+                            </config>
+                        </TCEforms>
+                    </modalText>
                 </el>
             </ROOT>
         </sDEF>
