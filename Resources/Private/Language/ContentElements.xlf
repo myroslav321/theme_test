@@ -119,35 +119,20 @@
             <trans-unit id="imageTextSection.description">
                 <source>Image Text Section</source>
             </trans-unit>
-            <trans-unit id="imageTextSection.subheader">
-                <source>Subheader</source>
-            </trans-unit>
             <trans-unit id="imageTextSection.bodytext">
                 <source>Text</source>
-            </trans-unit>
-            <trans-unit id="imageTextSection.bigCaption">
-                <source>Big caption</source>
-            </trans-unit>
-            <trans-unit id="imageTextSection.positionRight">
-                <source>Caption to the right</source>
-            </trans-unit>
-            <trans-unit id="imageTextSection.bigSize">
-                <source>Big HeroImage element</source>
-            </trans-unit>
-            <trans-unit id="imageTextSection.hashtag">
-                <source>Hashtag</source>
             </trans-unit>
             <trans-unit id="imageTextSection.btnTitle">
                 <source>Button title</source>
             </trans-unit>
+            <trans-unit id="imageTextSection.modalHeading">
+                <source>Modal window heading</source>
+            </trans-unit>
+            <trans-unit id="imageTextSection.modalText">
+                <source>Modal window text</source>
+            </trans-unit>
 
 
-            <trans-unit id="contentCarousel.title">
-                <source>Content carousel</source>
-            </trans-unit>
-            <trans-unit id="contentCarousel.description">
-                <source>Content carousel</source>
-            </trans-unit>
 
         </body>
     </file>

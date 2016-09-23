@@ -11,3 +11,12 @@ mod.wizards.newContentElement.wizardItems.contentElements {
     }
     show := addToList(imageTextSection)
 }
+
+# Flexform selects
+TCEFORM.tt_content.pi_flexform.imageTextSection.sDEF.backgroundColor {
+    addItems {
+      main-color = Default
+      orange = Orange
+      red = Red
+    }
+}

@@ -143,15 +143,12 @@ call_user_func(function() {
           'showitem' => '
               --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
               header;' . $cmsLanguageFilePrefix . 'header_formlabel,
-              --linebreak--,subheader;' . $contentElementLanguageFilePrefix . 'imageTextSection.subheader,
               --linebreak--,bodytext;' . $contentElementLanguageFilePrefix . 'imageTextSection.bodytext,
-              --linebreak--,header_link;' . $cmsLanguageFilePrefix . 'header_link_formlabel,
               --linebreak--,pi_flexform;' . $t3kitElementLanguageFilePrefix . 'tt_content.tabs.settings,
               --div--;' . $frontendLanguageFilePrefix . 'tabs.images,image,
               --div--;' . $frontendLanguageFilePrefix . 'tabs.appearance,
               --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
               --palette--;' . $t3kitElementLanguageFilePrefix . 'tt_content.palette.imageSize;imageSize,
-              --palette--;' . $frontendLanguageFilePrefix . 'palette.appearanceLinks;appearanceLinks,
               --div--;' . $frontendLanguageFilePrefix . 'tabs.access,
               hidden;' . $frontendLanguageFilePrefix . 'field.default.hidden,
               --palette--;' . $frontendLanguageFilePrefix . 'palette.access;access,
@@ -159,7 +156,7 @@ call_user_func(function() {
           '
       ];
 
-     
+
 
     //
     // Flexforms
