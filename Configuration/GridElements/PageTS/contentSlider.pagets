@@ -1,0 +1,19 @@
+tx_gridelements.setup.contentSlider {
+    title = LLL:EXT:theme_test/Resources/Private/Language/GridElements.xlf:contentSlider
+    description = LLL:EXT:theme_test/Resources/Private/Language/GridElements.xlf:contentSlider_description
+    icon = EXT:theme_t3kit/Resources/Public/Icons/ContentElements/slider.svg
+    config {
+        colCount = 1
+        rowCount = 1
+        rows {
+            1 {
+                columns {
+                    1 {
+                        name = LLL:EXT:theme_test/Resources/Private/Language/GridElements.xlf:contentSliderContent
+                        colPos = 0
+                    }
+                }
+            }
+        }
+    }
+}
