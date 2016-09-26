@@ -39,7 +39,7 @@ if (TYPO3_MODE === 'BE') {
 
     // imageTextSections
     $iconRegistry->registerIcon(
-        'content-elements-imagetextSection',
+        'content-elements-imageTextSection',
         \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
         [
             'source' => $t3kitElementIconFilePrefix  . 'element.svg'
