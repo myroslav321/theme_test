@@ -1,0 +1,19 @@
+tx_gridelements.setup.TeaserCarousel {
+    title = LLL:EXT:theme_test/Resources/Private/Language/GridElements.xlf:teaserCarousel
+    description = LLL:EXT:theme_test/Resources/Private/Language/GridElements.xlf:teaserCarousel_description
+    icon = EXT:theme_t3kit/Resources/Public/Icons/ContentElements/slider.svg
+    config {
+        colCount = 1
+        rowCount = 1
+        rows {
+            1 {
+                columns {
+                    1 {
+                        name = LLL:EXT:theme_test/Resources/Private/Language/GridElements.xlf:teaserCarouselContent
+                        colPos = 0
+                    }
+                }
+            }
+        }
+    }
+}

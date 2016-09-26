@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-09-19T09:11:39Z" product-name="theme_test">
+        <header/>
+        <body>
+
+
+            <trans-unit id="teaserCarousel">
+                <source>Teaser Carousel</source>
+            </trans-unit>
+            <trans-unit id="teaserCarousel_description">
+                <source>A Teaser Carousel container for teasers</source>
+            </trans-unit>
+            <trans-unit id="teaserCarouselContent">
+                <source>Teaser Carousel Content</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>
