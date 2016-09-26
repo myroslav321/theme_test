@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-<<<<<<< HEAD
-    <file source-language="en" datatype="plaintext" original="messages" date="2015-09-19T09:11:39Z" product-name="theme_test">
-=======
     <file source-language="en" datatype="plaintext" original="messages" date="2015-09-19T09:11:39Z" product-name="theme_t3kit">
->>>>>>> [FEATURE] add slider element
         <header/>
         <body>
 
 
-<<<<<<< HEAD
             <trans-unit id="teaserCarousel">
                 <source>Teaser Carousel</source>
             </trans-unit>
@@ -18,16 +13,6 @@
             </trans-unit>
             <trans-unit id="teaserCarouselContent">
                 <source>Teaser Carousel Content</source>
-=======
-            <trans-unit id="contentSlider">
-                <source>Content Slider</source>
-            </trans-unit>
-            <trans-unit id="contentSlider_description">
-                <source>Content Slider</source>
-            </trans-unit>
-            <trans-unit id="contentSliderContent">
-                <source>Content Slider Content</source>
->>>>>>> [FEATURE] add slider element
             </trans-unit>
 
         </body>
